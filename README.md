@@ -42,7 +42,7 @@ This web tool is a multi-step form designed to generate and display random data 
     * Credit Card Account Number
     * IDON Customer Number
 
-* **Timer:** A timer starts when you begin interacting with the first field on the form and displays the elapsed time.
+* **Timer:** A timer starts when you begin interacting with the Record Number field on the form and displays the elapsed time.
 
 * **Navigation:** Buttons are provided to navigate between the form pages.
 
@@ -97,4 +97,4 @@ This web tool is a multi-step form designed to generate and display random data 
 
 ## 📞 Contact
 
-For any questions or issues, please contact \[Your Name/Email/Support Channel].
+For any questions or issues, please contact = Bharat Rasve - bharatrasvebr@gmail.com - 7218838122.
