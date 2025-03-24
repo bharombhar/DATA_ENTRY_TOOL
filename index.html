@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Step Data Entry Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="headline"> ⫷ BHARAT RASVE'S ⁂ ATZ DEMO TOOL ⫸</h1>
+
+    <div id="form1" class="container active">
+        <h2>Phase 1</h2>
+        <div class="form-layout">
+            <div class="form-section">
+                <div class="form-group"><label>Record Number:</label><input type="text" id="startField" placeholder="Type as it is"></div>
+                <div class="form-group"><label>Customer ID:</label><input type="text" placeholder="8 To 12 Digits Are Valid"></div>
+                <div class="form-group"><label>Card Issue Type:</label><input type="text" placeholder="Type In Proper Case"></div>
+                <div class="form-group"><label>Card Limit:</label><input type="text" placeholder=" Type As Given With $ Symbol"></div>
+                <div class="form-group"><label>Average Monthly Usage:</label><input type="text" placeholder=" Type As Given With $ Symbol"></div>
+                <div class="form-group"><label>Does Credit Card Providence Life Insurance:</label><input type="text" placeholder="Type In Capital Letter"></div>
+            </div>
+            <div class="form-section">
+                <div class="form-group"><label>Average Monthly Payment:</label><input type="text" placeholder=" Type As Given With $ Symbol"></div>
+                <div class="form-group"><label>Card Issuer Date:</label><input type="text" placeholder="Must Be Entered MM/DD/YYYY"></div>
+                <div class="form-group"><label>Card Holder Name:</label><input type="text" placeholder="Type In Capital Letter"></div>
+                <div class="form-group"><label>Card Holder DOB:</label><input type="text" placeholder="Must Be Entered MM/DD/YYYY"></div>
+                <div class="form-group"><label>Alternate Docket No:</label><input type="text" placeholder=" Type As Given With PRO"></div>
+                <div class="form-group"><label>Remark:</label><input type="text" placeholder="Type In Capital Letter"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="nextPage(2)">Next</button>
+        </div>
+        <div class="data-box"></div>
+    </div>
+
+    <div id="form2" class="container">
+        <h2>Phase 2</h2>
+        <div class="form-layout">
+            <div class="form-section">
+                <div class="form-group"><label>Sex_1:</label><input type="text" placeholder="Type In Capital Letter"></div>
+                <div class="form-group"><label>Register Address:</label><input type="text" placeholder="Type In Proper Case"></div>
+                <div class="form-group"><label>Card Type:</label><input type="text" placeholder="Type In Proper Case"></div>
+                <div class="form-group"><label>Rate of Interest Type:</label><input type="text" placeholder="Type As Given With $ And % Symbol"></div>
+            </div>
+            <div class="form-section">
+                <div class="form-group"><label>FICO Credit Score:</label><input type="text" placeholder=" Type As Given With $ Symbol"></div>
+                <div class="form-group"><label>City_1:</label><input type="text" placeholder="Type In Small Letter"></div>
+                <div class="form-group"><label>Province_1:</label><input type="text" placeholder="Type In Capital Letter"></div>
+                <div class="form-group"><label>Zip_1:</label><input type="text" placeholder=" Type As Given"></div>
+                <div class="form-group"><label>Remark:</label><input type="text" placeholder="Type In Capital Letter"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="prevPage(1)">Previous</button>
+            <button onclick="nextPage(3)">Next</button>
+        </div>
+        <div class="data-box"></div>
+    </div>
+
+    <div id="form3" class="container">
+        <h2>Phase 3</h2>
+        <div class="form-layout">
+            <div class="form-section">
+                <div class="form-group"><label>Beneficiary Name:</label><input type="text" placeholder="Type In Proper Case"></div>
+                <div class="form-group"><label>Alternate Address:</label><input type="text" placeholder=" Type As Given"></div>
+                <div class="form-group"><label>Beneficiary D.O.B:</label><input type="text" placeholder="Must Be Entered MM/DD/YYYY"></div>
+                <div class="form-group"><label>City_2:</label><input type="text" placeholder="Type In Proper Case"></div>
+                <div class="form-group"><label>Province_2:</label><input type="text" placeholder="Type In Capital Letter"></div>
+                <div class="form-group"><label>Zip_2:</label><input type="text" placeholder=" Type As Given"></div>
+            </div>
+            <div class="form-section">
+                <div class="form-group"><label>Country:</label><input type="text" placeholder="Type In Proper Case"></div>
+                <div class="form-group"><label>Blood Group:</label><input type="text" placeholder="Type In Capital Letter"></div>
+                <div class="form-group"><label>Sex_2:</label><input type="text" placeholder="Type In Capital Letter"></div>
+                <div class="form-group"><label>Card Expire Date:</label><input type="text" placeholder="Must Be Entered MM/DD/YYYY"></div>
+                <div class="form-group"><label>Credit Card Account Number:</label><input type="text" placeholder=" TYPE AS GIVEN"></div>
+                <div class="form-group"><label>IDON Customer Number:</label><input type="text" placeholder=" Type As Given"></div>
+                <div class="form-group"><label>Remark:</label><input type="text" placeholder="Type In Capital Letter"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="prevPage(2)">Previous</button>
+            <button onclick="submitForm()">Submit</button>
+        </div>
+        <div class="data-box"></div>
+    </div>
+    <div id="timer" class="timer-box">Time: 0:00</div>
+    <script src="scripts.js"></script>
+</body>
+</html>

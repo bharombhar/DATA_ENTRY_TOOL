@@ -1,0 +1,213 @@
+/* General Dark Theme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    display:math;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between; /* Changed from space-between to flex-start */
+}
+
+/* Headline Styling */
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #eff8f6;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 10px 95px 10px 95px; /* Adjusted top and bottom margins */
+    padding: 2px;
+    background: #0d1117;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Form Container with Glow */
+.container {
+    display: none;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(13, 17, 23, 0.9);
+    padding: 15px;
+    border-radius: 45px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.2);
+    margin-bottom: 10px; /* Added margin below container */
+}
+
+/* Active Form Visibility */
+.active {
+    display: block;
+}
+
+/* Form Layout */
+.form-layout {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Added to handle smaller screens */
+}
+
+/* Form Sections */
+.form-section {
+    width: 44%;
+    min-width: 300px; /* Added minimum width for responsiveness */
+}
+
+/* Form Groups */
+.form-group {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    align-items: baseline; /* Vertically align label and input */
+}
+
+/* Labels */
+label {
+    width: 45%;
+    color: #58a6ff;
+    margin-bottom: 0; /* Removed default label margin */
+}
+
+/* Input Fields */
+input {
+    width: 50%;
+    padding: 8px;
+    background: #161b22;
+    border: 2px solid #30363d;
+    color: #c9d1d9;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box; /* Added to include padding in width */
+}
+
+input:focus {
+    border-color: #58a6ff;
+    box-shadow: 0px 0px 8px #58a6ff;
+}
+
+/* Data Display Box */
+.data-box {
+    width: 90%;
+    height: 65px;
+    border: 2px solid #db018e;
+    margin-top: 15px; /* Reduced margin-top */
+    padding: 10px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #161b22;
+    color: #f0f6fc;
+    border-radius: 5px;
+    margin-bottom: 0; /* Removed default margin-bottom */
+}
+
+/* Parent container for Timer + Buttons */
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px; /* Reduced margin-top */
+    margin-bottom: 10px; /* Added margin-bottom */
+}
+
+/* Timer Box - Darker with Border & Digital Clock Style */
+.timer-box {
+    width: 200px;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: #00ffcc;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin: 4px auto 4px auto;
+    border: 1.5px solid #00ffcc;
+    box-shadow: 0px 0px 8px #00ffcc61;
+    letter-spacing: 2px;
+}
+
+/* Making the timer text more digital-like */
+#timer {
+    font-variant-numeric: tabular-nums;
+}
+
+/* Buttons Container - Positioned to the Right */
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0; /* Removed default margin-top */
+}
+
+/* Buttons Styling */
+.buttons button {
+    background-color: #081829;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid #004a99;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #081829;
+    border-color: #007bff;
+    color: #58a6ff;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.7);
+    transform: scale(1.05);
+}
+
+/* Headings */
+h2 {
+    background-color: #1a1a2e;
+    color: #e804b7;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #e804b7;
+    box-shadow: 0px 0px 8px rgba(249, 11, 229, 0.388);
+    letter-spacing: 2px;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+input[type="text"] {
+    border: 2px solid #58a6ff;
+    background: #161b22;
+    color: #c9d1d9;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box; /* Added to include padding in width */
+}
+
+input[type="text"]:focus {
+    border-color: #00ff7f;
+    box-shadow: 0px 0px 8px #00ff7f;
+}
+
+/* Footer (added for better spacing) */
+footer {
+    margin-top: auto; /* Pushes footer to the bottom */
+    text-align: center;
+    padding: 10px;
+    color: #c9d1d9;
+}
