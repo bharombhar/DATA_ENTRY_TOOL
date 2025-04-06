@@ -1,5 +1,8 @@
 # DATA_ENTRY_TOOL
 This data entry tool for the user to explore and practice typing & data entry work. its based on inspiration from real world project @atz, if you want to practice filling the user forms, data entry, corporate work or just want test your typing speed with timer then this tool is for you.
+** Go to Link: ** https://bharombhar.github.io/DATA_ENTRY_TOOL/
+
+
 # 👋 Hello Users!
 
 This web tool is a multi-step form designed to generate and display random data related to customer records. It includes a timer to track how long you interact with the form. No actual data is saved or transmitted. This tool is for demonstration and testing purposes.
@@ -95,6 +98,13 @@ This web tool is a multi-step form designed to generate and display random data 
 
 * **Data Not Updating:** If the data doesn't update, try refreshing the page. If problems persist, check your browser's JavaScript console for errors.
 
-## 📞 Contact
+## 📞 Connect Author
+** Bharat Rasve **
+
+-Twitter: https://lnkd.in/dumhzwzK
+-Instagram: https://lnkd.in/dmtbG9iu
+-Quora: https://lnkd.in/dsZvEmNh
+-Youtube: https://lnkd.in/dkZTNjsU
+
 
 For any questions or issues, please contact = Bharat Rasve - bharatrasvebr@gmail.com - 7218838122.
